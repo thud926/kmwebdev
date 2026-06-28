@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kmwebdev.me | Engineering Log &amp; Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="#">kmwebdev.me</a>
+            </div>
+            <nav aria-label="Primary Navigation">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#timeline">Timeline</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <h1>Building Performant Web Experiences from First Principles</h1>
+                <p class="hero-lead">
+                    Crafting clean, semantic HTML and performance-driven CSS. Focused on writing solid, reliable code from the ground up.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn-primary">View Projects</a>
+                    <a href="#contact" class="btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>The Mindset</h2>
+                <p class="section-desc">
+                    Mastering the core fundamentals. This site serves as a live testbed and timeline of technical development, emphasizing accessibility, optimization, and zero-framework stability.
+                </p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2>Project Pipeline &amp; Evolution</h2>
+                
+                <div class="project-grid">
+                    
+                    <article class="project-card active-version">
+                        <div class="card-badge">v1.0.0 - Current</div>
+                        <h3>Vanilla Core Portfolio</h3>
+                        <p>This exact site. Built entirely from an Emmet boilerplate using semantic HTML5, custom CSS variables, and modern Grid layouts. Zero frameworks, maximum performance.</p>
+                        <div class="tech-tags">
+                            <span>HTML5</span>
+                            <span>CSS3 Grid</span>
+                            <span>Bento Layout</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card future-version">
+                        <div class="card-badge">v1.1.0 - Up Next</div>
+                        <h3>Dynamic Script Integration</h3>
+                        <p>The next evolutionary step. This clone of the site will introduce native DOM manipulation using vanilla JavaScript to handle live project filtering and interactive UI assets.</p>
+                        <div class="tech-tags">
+                            <span>Vanilla JS</span>
+                            <span>DOM API</span>
+                            <span>JSON Data</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card future-version">
+                        <div class="card-badge">v2.0.0 - Deep End</div>
+                        <h3>Full-Stack Environment</h3>
+                        <p>A comprehensive showcase piece integrating backend architecture, API logic, and secure state management to track and display real-time development metrics.</p>
+                        <div class="tech-tags">
+                            <span>Node.js</span>
+                            <span>API Routing</span>
+                            <span>State Management</span>
+                        </div>
+                    </article>
+
+                </div>
+
+                <div class="telemetry-section">
+                    <article class="telemetry-card">
+                        <div class="card-badge">Telemetry</div>
+                        <h3>Project Statistics</h3>
+                        <ul class="stats-list">
+                            <li><span class="stat-label">Dependencies:</span> <span class="stat-value">0</span></li>
+                            <li><span class="stat-label">Frameworks:</span> <span class="stat-value">0</span></li>
+                            <li><span class="stat-label">Accessibility:</span> <span class="stat-value">WCAG AA Compliant (Testing pending)</span></li>
+                            <li><span class="stat-label">Performance Target:</span> <span class="stat-value">100% Lighthouse</span></li>
+                            <li><span class="stat-label">Last Deployment:</span> <span class="stat-value">2026-06-27</span></li>
+                        </ul>
+                        <button type="button" class="metrics-btn">System Metrics</button>
+                    </article>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="timeline" class="timeline-section">
+            <div class="container">
+                <h2>Development Log &amp; Timeline</h2>
+                <div class="timeline-container">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2026.06</div>
+                        <div class="timeline-content">
+                            <h3>HTML5 &amp; CSS3 Foundations</h3>
+                            <p>Launched the core responsive architecture. Decoupled styles completely from markup, implemented custom property systems, and verified keyboard layout navigation and NVDA screen-reader accessibility.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item future-timeline">
+                        <div class="timeline-date">2026.07</div>
+                        <div class="timeline-content">
+                            <h3>JavaScript DOM Manipulation</h3>
+                            <p>Targeted milestones: Dynamic template interactions, client-side validation logic, and local UI state storage using raw script patterns.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item future-timeline">
+                        <div class="timeline-date">2026.08</div>
+                        <div class="timeline-content">
+                            <h3>Asynchronous APIs &amp; Data Integration</h3>
+                            <p>Targeted milestones: Implementing asynchronous data fetches, working with custom JSON architecture, and consuming external REST APIs natively.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <p class="contact-subtitle">Have a project in mind or want to talk shop? Drop a message below.</p>
+                
+                <form action="https://formsubmit.co/your-email@email.com" method="POST" class="contact-form">
+                    <input type="text" name="_honey" style="display:none">
+                    <input type="hidden" name="_next" value="https://kmwebdev.me">
+
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required autocomplete="name" aria-required="true">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required autocomplete="email" aria-required="true">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required aria-required="true"></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 | Built Locally with Vanilla HTML &amp; CSS</p>
+        </div>
+    </footer>
+
+</body>
+</html>
